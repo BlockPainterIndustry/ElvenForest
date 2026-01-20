@@ -21,11 +21,11 @@ You can of course download the dev branch build as a .jar but there is not much 
 ## License
 All code (excluding the bundled APIs from other mods, which are covered by their respective licenses) are released without restriction into the public domain under the  GNU LESSER GENERAL PUBLIC LICENSE.
 
-All textures and models are All Rights Reserved unless otherwise given permission. For Addon creator please contact me on Discord: https://discord.gg/nnyvMqWn
+All textures and models are All Rights Reserved unless otherwise given permission. 
 
 ## Future Plans
 
-First Alpha Version: The mod will reach the first alpha Version (Version: alpha-0.1.0). Version alpha-0.1.0 will also be the first version I will release. (alpha-0.1.0 uploaded)
+Understanding Hytale Modding :) 
 
 You can find the roadmap on [curseforge](coming soon). This is only a roughly plan for the alpha version.
 
