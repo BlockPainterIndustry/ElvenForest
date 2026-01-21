@@ -1,0 +1,264 @@
+{
+  "Parent": "WoodElf",
+  "AnimationSets": {
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Outlander_Hurt"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Outlander_Hurt"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt3.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Outlander_Hurt"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt4.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Outlander_Hurt"
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Looping": false,
+          "Speed": 1.2
+        }
+      ]
+    },
+    "IdleYawn": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Looping": false,
+          "Speed": 1.0
+        }
+      ]
+    },
+    "WakeRain": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Looping": false,
+          "Speed": 1.0
+        }
+      ]
+    },
+    "Kneel": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Crouch.blockyanim",
+          "Speed": 0.5
+        }
+      ]
+    },
+    "Eat": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    }
+  },
+  "DefaultAttachments": [
+    {
+      "Model": "NPC/Intelligent/Elf/Models/Attachments/Ear.blockymodel",
+      "Texture": "Characters/Body_Attachments/Ears/WoodElf_Ear.png"
+    }
+  ],
+  "RandomAttachmentSets": {
+    "Hair": {
+      "Hair_Var_1.0": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var1.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var1.png",
+        "GradientSet": "Hair",
+        "GradientId": "White"
+      },
+      "Hair_Var_1.1": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var1.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var1.png",
+        "GradientSet": "Hair",
+        "GradientId": "Black",
+        "Weight": 2
+      },
+      "Hair_Var_1.2": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var1.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var1.png",
+        "GradientSet": "Hair",
+        "GradientId": "BlondSand",
+        "Weight": 2
+      },
+      "Hair_Var_1.3": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var1.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var1.png",
+        "GradientSet": "Hair",
+        "GradientId": "Brown",
+        "Weight": 4
+      },
+      "Hair_Var_1.4": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var1.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var1.png",
+        "GradientSet": "Hair",
+        "GradientId": "BrownLight",
+        "Weight": 3
+      },
+      "Hair_Var_1.5": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var1.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var1.png",
+        "GradientSet": "Hair",
+        "GradientId": "BrownDarker",
+        "Weight": 2
+      }
+    },
+    "Eyes": {
+      "Var1": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "GradientSet": "Eyes_Gradient",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale_Large.png",
+        "GradientId": "Red",
+        "Weight": 3
+      },
+      "Var1.1": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "GradientSet": "Eyes_Gradient",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale_Large.png",
+        "GradientId": "BlueLight",
+        "Weight": 5
+      },
+      "Var1.2": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "GradientSet": "Eyes_Gradient",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale_Large.png",
+        "GradientId": "Orange",
+        "Weight": 3
+      },
+      "Var1.3": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "GradientSet": "Eyes_Gradient",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale_Large.png",
+        "GradientId": "White",
+        "Weight": 1
+      },
+      "Var1.4": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "GradientSet": "Eyes_Gradient",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale_Large.png",
+        "GradientId": "Turquoise",
+        "Weight": 2
+      },
+      "Var1.5": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "GradientSet": "Eyes_Gradient",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale_Large.png",
+        "GradientId": "Pink",
+        "Weight": 5
+      },
+      "Var2.": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "Honey",
+        "Weight": 5
+      },
+      "Var2.1": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "Blue",
+        "Weight": 5
+      },
+      "Var2.2": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "Black",
+        "Weight": 1
+      },
+      "Var2.3": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "Honey",
+        "Weight": 1
+      },
+      "Var2.4": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "Green",
+        "Weight": 4
+      },
+      "Var2.5": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "White",
+        "Weight": 1
+      },
+      "Var3": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Eyes_Square_Pupil.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "GreenLight",
+        "Weight": 4
+      },
+      "Var3.1": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Eyes_Square_Pupil.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "BlueLight",
+        "Weight": 2
+      },
+      "Var3.2": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Eyes_Square_Pupil.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "Honey",
+        "Weight": 3
+      },
+      "Var3.3": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Eyes_Square_Pupil.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "White",
+        "Weight": 1
+      },
+      "Var3.4": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Eyes_Square_Pupil.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "Purple",
+        "Weight": 3
+      },
+      "Var3.5": {
+        "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+        "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Eyes_Square_Pupil.png",
+        "GradientSet": "Eyes_Gradient",
+        "GradientId": "BrownLight",
+        "Weight": 6
+      }
+    }
+  }
+}

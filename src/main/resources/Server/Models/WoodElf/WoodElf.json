@@ -1,0 +1,25 @@
+{
+  "Parent": "Player",
+  "Model": "Characters/Player_With_Face.blockymodel",
+  "Texture": "Characters/Characters/Player_Textures/WoodElf_1.png",
+  "AnimationSets": {
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Default/Death.blockyanim",
+          "Looping": false
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Death2.blockyanim",
+          "Looping": false
+        }
+      ]
+    }
+  },
+  "DefaultAttachments": [
+    {
+      "Model": "NPC/Intelligent/Elf/Models/Attachments/Ear.blockymodel",
+      "Texture": "Characters/Body_Attachments/Ears/WoodElf_Ear.png"
+    }
+  ]
+}
