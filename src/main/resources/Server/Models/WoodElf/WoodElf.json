@@ -1,7 +1,7 @@
 {
   "Parent": "Player",
   "Model": "Characters/Player_With_Face.blockymodel",
-  "Texture": "Characters/Characters/Player_Textures/WoodElf_1.png",
+  "Texture": "Characters/Player_Textures/WoodElf_1.png",
   "AnimationSets": {
     "Death": {
       "Animations": [

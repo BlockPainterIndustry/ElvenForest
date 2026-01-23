@@ -86,6 +86,11 @@
     {
       "Model": "NPC/Intelligent/Elf/Models/Attachments/Ear.blockymodel",
       "Texture": "Characters/Body_Attachments/Ears/WoodElf_Ear.png"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Mouths/Mouth1.blockymodel",
+      "Texture": "Characters/Body_Attachments/Mouths/Mouth_Neutral.png",
+      "GradientSet": "Skin"
     }
   ],
   "RandomAttachmentSets": {
@@ -130,6 +135,48 @@
         "GradientSet": "Hair",
         "GradientId": "BrownDarker",
         "Weight": 2
+      },
+      "Hair_Var2.0": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var2.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var2.png",
+        "GradientSet": "Hair",
+        "GradientId": "White",
+        "Weight": 1
+      },
+      "Hair_Var2.1": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var2.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var2.png",
+        "GradientSet": "Hair",
+        "GradientId": "BlondSand",
+        "Weight": 2
+      },
+      "Hair_Var2.2": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var2.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var2.png",
+        "GradientSet": "Hair",
+        "GradientId": "Black",
+        "Weight": 2
+      },
+      "Hair_Var2.3": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var2.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var2.png",
+        "GradientSet": "Hair",
+        "GradientId": "Brown",
+        "Weight": 4
+      },
+      "Hair_Var2.4": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var2.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var2.png",
+        "GradientSet": "Hair",
+        "GradientId": "BrownDarker",
+        "Weight": 2
+      },
+      "Hair_Var2.5": {
+        "Model": "Characters/Haircuts/Elf_Hair_Var2.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var2.png",
+        "GradientSet": "Hair",
+        "GradientId": "BrownLight",
+        "Weight": 3
       }
     },
     "Eyes": {
@@ -258,6 +305,30 @@
         "GradientSet": "Eyes_Gradient",
         "GradientId": "BrownLight",
         "Weight": 6
+      }
+    },
+    "SimpleTunic": {
+      "Var1.0": {
+        "Model": "NPC/Intelligent/WoodElf/Attachment/ElfenTunic.blockymodel",
+        "Texture": "NPC/Intelligent/WoodElf/Attachment/Simple_Tunic.png",
+        "GradientSet": "Fantasy_Cotton",
+        "GradientId": "Green"
+      }
+    },
+    "Overpants": {
+      "Var1.0": {
+        "Model": "NPC/Intelligent/WoodElf/Attachment/comabt_skirt.blockymodel",
+        "Texture": "NPC/Intelligent/WoodElf/Attachment/Combat_Skirt.png",
+        "GradientSet": "Fantasy_Cotton",
+        "GradientId": "Lime"
+      }
+    },
+    "Shoes": {
+      "Var1.0": {
+        "Model": "NPC/Intelligent/WoodElf/Attachment/LeatherBootsHigh.blockymodel",
+        "Texture": "NPC/Intelligent/WoodElf/Attachment/LetherBootsHighTexture.png",
+        "GradientSet": "Faded_Leather",
+        "GradientId": "Black"
       }
     }
   }
