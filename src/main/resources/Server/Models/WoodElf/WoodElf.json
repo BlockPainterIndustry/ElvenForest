@@ -21,5 +21,22 @@
       "Model": "NPC/Intelligent/Elf/Models/Attachments/Ear.blockymodel",
       "Texture": "Characters/Body_Attachments/Ears/WoodElf_Ear.png"
     }
-  ]
+  ],
+  "RandomAttachmentSets": {
+    "Hair": {
+      "Hair_Var_1.0": {
+        "Model": "Characters/Haircuts/Bangs.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var1.png",
+        "GradientSet": "Hair",
+        "GradientId": "White"
+      },
+      "Hair_Var_1.1": {
+        "Model": "Characters/Haircuts/Berserker.blockymodel",
+        "Texture": "Characters/Haircuts/Elf_Hair_Var1.png",
+        "GradientSet": "Hair",
+        "GradientId": "Black",
+        "Weight": 2
+      }
+    }
+  }
 }
