@@ -14,6 +14,20 @@
           "Looping": false
         }
       ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Sleep.blockyanim"
+        }
+      ]
+    },
+    "Wave": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Poses/Ninja.blockyanim"
+        }
+      ]
     }
   },
   "DefaultAttachments": [
